@@ -10,6 +10,7 @@ before_script:
   - ./setup
 
 script:
+  - . $HOME/.nvm/nvm.sh
   - which npm
   - which node
   - npm version
