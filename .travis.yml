@@ -1,0 +1,16 @@
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: required
+      language: bash
+
+before_script:
+  - ./setup
+
+script:
+  - which npm
+  - which node
+  - npm version
+
+
