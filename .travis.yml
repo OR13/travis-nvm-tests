@@ -6,6 +6,7 @@ matrix:
       language: bash
 
 before_script:
+  - echo $SHELL
   - ./setup
 
 script:
