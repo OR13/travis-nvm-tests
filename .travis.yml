@@ -7,7 +7,7 @@ matrix:
 
 before_script:
   - echo $SHELL
-  - ./setup
+  - source ./setup
 
 script:
   - which npm
